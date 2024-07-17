@@ -1,3 +1,5 @@
+import BigSlider from '../../Shere/BigSlider';
+
 const Home = () => {
   const uniLink = (
     <>
@@ -208,6 +210,8 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      <BigSlider />
     </main>
   );
 };

@@ -1,4 +1,5 @@
 import BigSlider from '../../Shere/BigSlider';
+import SmallSlider from '../../Shere/SmallSlider';
 
 const Home = () => {
   const uniLink = (
@@ -212,6 +213,7 @@ const Home = () => {
       </section>
 
       <BigSlider />
+      <SmallSlider />
     </main>
   );
 };

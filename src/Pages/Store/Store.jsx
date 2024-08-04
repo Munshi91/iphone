@@ -36,37 +36,73 @@ const Store = () => {
       <section className="bg-[#efefef] py-6">
         <div className="max-w-screen-xl mx-auto px-4 md:px-0 grid grid-cols-2 md:grid-cols-6 gap-4">
           <div>
-            <img src={CT_1} width="150" height="130" alt="" />
+            <img
+              className="mx-auto"
+              src={CT_1}
+              width="150"
+              height="130"
+              alt=""
+            />
             <h3 className="text-md text-center mt-4 font-bold text-black">
               Art, Media & Design
             </h3>
           </div>
           <div>
-            <img src={CT_2} width="150" height="130" alt="" />
+            <img
+              className="mx-auto"
+              src={CT_2}
+              width="150"
+              height="130"
+              alt=""
+            />
             <h3 className="text-md text-center mt-4 font-bold text-black">
               Business
             </h3>
           </div>
           <div>
-            <img src={CT_3} width="150" height="130" alt="" />
+            <img
+              className="mx-auto"
+              src={CT_3}
+              width="150"
+              height="130"
+              alt=""
+            />
             <h3 className="text-md text-center mt-4 font-bold text-black">
               Computing Sciences
             </h3>
           </div>
           <div>
-            <img src={CT_4} width="150" height="130" alt="" />
+            <img
+              className="mx-auto"
+              src={CT_4}
+              width="150"
+              height="130"
+              alt=""
+            />
             <h3 className="text-md text-center mt-4 font-bold text-black">
               Engineering
             </h3>
           </div>
           <div>
-            <img src={CT_5} width="150" height="130" alt="" />
+            <img
+              className="mx-auto"
+              src={CT_5}
+              width="150"
+              height="130"
+              alt=""
+            />
             <h3 className="text-md text-center mt-4 font-bold text-black">
               Humanities
             </h3>
           </div>
           <div>
-            <img src={CT_6} width="150" height="130" alt="" />
+            <img
+              className="mx-auto"
+              src={CT_6}
+              width="150"
+              height="130"
+              alt=""
+            />
             <h3 className="text-md text-center mt-4 font-bold text-black">
               Health Science
             </h3>

@@ -73,10 +73,10 @@ const Home = () => {
             />
           </div>
           <div className="relative  md:mt-10 z-10 flex flex-col justify-center items-center ">
-            <h2 className="md:text-6xl text-2xl uppercase  text-white font-extrabold leading-tight mb-4">
+            <h2 className="md:text-6xl text-2xl   text-white font-bold leading-tight mb-4">
               Ulster University
             </h2>
-            <p className="md:text-2xl text-xl font-semibold text-center text-white mb-4">
+            <p className="md:text-2xl text-xl  text-center text-white mb-4">
               A limited series event <br /> starring Jake Gyllenhaal.
             </p>
             <div className="md:px-8 sm:items-start sm:justify-center md:pb-6 sm:px-0 md:space-x-5 md:flex">

@@ -67,14 +67,14 @@ const Home = () => {
               className="object-cover object-center hidden md:block"
             />
             <img
-              src="assets/images/hero_pi__esjmx2w8f90m_small_2x.jpg"
+              src={Home_2}
               alt="Background Image"
               className="object-cover object-center md:hidden"
             />
           </div>
           <div className="relative  md:mt-10 z-10 flex flex-col justify-center items-center ">
             <h2 className="md:text-6xl text-2xl uppercase  text-white font-extrabold leading-tight mb-4">
-              Presumed Innocent
+              Ulster University
             </h2>
             <p className="md:text-2xl text-xl font-semibold text-center text-white mb-4">
               A limited series event <br /> starring Jake Gyllenhaal.
@@ -105,7 +105,7 @@ const Home = () => {
             </div>
             <div className="relative mt-4 md:mt-10 z-10 flex flex-col justify-center items-center  text-center">
               <h1 className="text-4xl text-black font-bold leading-tight mb-4">
-                iPhone 15
+                Northumbria University
               </h1>
               <p className="text-xl text-black mb-4">
                 New camera. New design. Newphoria.
@@ -130,7 +130,7 @@ const Home = () => {
             </div>
             <div className="relative mt-4 md:mt-10 z-10 flex flex-col justify-center items-center  text-center">
               <h1 className="text-4xl text-white font-bold leading-tight mb-4">
-                iPad Pro
+                University of Law
               </h1>
               <p className="text-xl text-white mb-4">
                 Unbelievably thin. Incredibly powerful.
@@ -196,7 +196,7 @@ const Home = () => {
             </div>
             <div className="relative md:mt-4 z-10 flex flex-col justify-center items-center  text-center">
               <h1 className="text-4xl text-black font-bold leading-tight mb-4">
-                <span className="text-transparent">Apple Trade In</span>{' '}
+                <span className="text-transparent">Apple Trade In</span>
                 <img
                   src="assets/images/apple-trade-in-logo-202303.png"
                   alt=""

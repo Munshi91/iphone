@@ -50,25 +50,25 @@ const Store = () => {
           <div>
             <img src={CT_3} width="150" height="130" alt="" />
             <h3 className="text-md text-center mt-4 font-bold text-black">
-              iPhone
+              Computing Sciences
             </h3>
           </div>
           <div>
             <img src={CT_4} width="150" height="130" alt="" />
             <h3 className="text-md text-center mt-4 font-bold text-black">
-              Apple Watch
+              Engineering
             </h3>
           </div>
           <div>
             <img src={CT_5} width="150" height="130" alt="" />
             <h3 className="text-md text-center mt-4 font-bold text-black">
-              AirPods
+              Humanities
             </h3>
           </div>
           <div>
             <img src={CT_6} width="150" height="130" alt="" />
             <h3 className="text-md text-center mt-4 font-bold text-black">
-              AirTag
+              Health Science
             </h3>
           </div>
         </div>

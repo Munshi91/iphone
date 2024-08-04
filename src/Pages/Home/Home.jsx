@@ -1,6 +1,7 @@
 import BigSlider from '../../Shere/BigSlider';
 import SmallSlider from '../../Shere/SmallSlider';
 import Home_1 from '../../../public/assets/images/Home-1.jpg';
+import Home_2 from '../../../public/assets/images/Home-2.jpg';
 
 const Home = () => {
   const uniLink = (
@@ -61,7 +62,7 @@ const Home = () => {
         <div className="relative w-full md:h-[600px] h-[500px] overflow-hidden">
           <div className="absolute inset-0  flex justify-center md:justify-end">
             <img
-              src="assets/images/hero_pi__esjmx2w8f90m_large.jpg"
+              src={Home_2}
               alt="Background Image"
               className="object-cover object-center hidden md:block"
             />

@@ -44,7 +44,7 @@ const Store = () => {
           <div>
             <img src={CT_2} width="150" height="130" alt="" />
             <h3 className="text-md text-center mt-4 font-bold text-black">
-              iPad
+              Business
             </h3>
           </div>
           <div>

@@ -38,7 +38,7 @@ const Store = () => {
           <div>
             <img src={CT_1} width="150" height="130" alt="" />
             <h3 className="text-md text-center mt-4 font-bold text-black">
-              MAC
+              Art, Media & Design
             </h3>
           </div>
           <div>
@@ -73,7 +73,6 @@ const Store = () => {
           </div>
         </div>
       </section>
-
     </>
   );
 };

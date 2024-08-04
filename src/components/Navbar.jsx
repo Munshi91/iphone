@@ -1,7 +1,7 @@
 import { appleImg, bagImg, searchImg } from '../utils';
 import { navLists } from '../constants';
 import { NavLink } from 'react-router-dom';
-import Logo from '../../public/assets/images/logo.svg';
+import Logo from '/assets/images/ED-door-white-logo-hori.svg';
 
 const Navbar = () => {
   const navLinks = (
@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <header className="w-full bg-black py-5 sm:px-10 px-5 flex justify-between items-center">
       <nav className="flex w-full screen-max-width">
-        <img src={Logo} alt="Apple" width={24} height={24} />
+        <img src={Logo} alt="Apple" width={150} height={24} />
 
         <div className="flex flex-1 justify-center max-sm:hidden">
           {/* {navLists.map(nav => (

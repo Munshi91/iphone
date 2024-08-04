@@ -1,6 +1,6 @@
 import BigSlider from '../../Shere/BigSlider';
 import SmallSlider from '../../Shere/SmallSlider';
-import Home_1 from '../../../public/assets/images/Home-1.jpg';
+import Home_1 from '/assets/images/Home-1.jpg';
 import Home_2 from '../../../public/assets/images/Home-2.jpg';
 
 const Home = () => {
@@ -36,7 +36,7 @@ const Home = () => {
               className="object-cover object-center hidden md:block"
             />
             <img
-              src="assets/images/hero_iphonesmall.jpg"
+              src={Home_1}
               alt="Background Image"
               className="object-cover object-center md:hidden"
             />
@@ -72,7 +72,7 @@ const Home = () => {
               className="object-cover object-center md:hidden"
             />
           </div>
-          <div className="relative mt-80 md:mt-80 z-10 flex flex-col justify-center items-center ">
+          <div className="relative  md:mt-10 z-10 flex flex-col justify-center items-center ">
             <h2 className="md:text-6xl text-2xl uppercase  text-white font-extrabold leading-tight mb-4">
               Presumed Innocent
             </h2>

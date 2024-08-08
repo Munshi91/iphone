@@ -31,6 +31,53 @@ const Home = () => {
         <div className="relative w-full md:h-[600px] h-[500px] overflow-hidden">
           <div className="absolute inset-0  flex justify-center md:justify-end">
             <img
+              src={Home_2}
+              alt="Background Image"
+              className="object-cover object-center hidden md:block"
+            />
+            <img
+              src={Home_2}
+              alt="Background Image"
+              className="object-cover object-center md:hidden"
+            />
+          </div>
+          <div className="relative md:mt-10 z-10 flex flex-col justify-center items-center  text-center">
+            <h1 className="md:text-6xl text-2xl text-white font-bold leading-tight mb-4">
+              Your dreams emerge here...
+            </h1>
+            <p className="md:text-2xl text-xl text-white mb-4">
+              We offer high-quality and professional <br />
+              UK University Admission services
+            </p>
+            <div className="md:px-8 sm:items-start sm:justify-center md:pb-6 sm:px-0 md:space-x-5  md:flex">
+              <div className="space-x-4">
+                <a
+                  href="/about"
+                  title=""
+                  className="mb-3 sm:mb-0 inline-flex items-center justify-center w-full md:px-6 py-2 text-lg font-semibold text-white  bg-blue border hover:bg-transparent border-transparent hover:border-blue hover:text-blue sm:w-auto rounded-full  focus:outline-none "
+                  role="button"
+                >
+                  About Us
+                </a>
+                <a
+                  href="/Apply"
+                  className="inline-flex items-center justify-center w-full md:px-6 py-2 text-lg font-semibold text-blue hover:text-white bg-transparent border border-blue sm:w-auto rounded-full hover:bg-blue focus:outline-none"
+                  role="button"
+                >
+                  Apply Now
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="bg-white py-1 "></div>
+
+      <section className="pt-12 bg-black sm:pt-10  ">
+        <div className="relative w-full md:h-[600px] h-[500px] overflow-hidden">
+          <div className="absolute inset-0  flex justify-center md:justify-end">
+            <img
               src={Home_1}
               alt="Background Image"
               className="object-cover object-center hidden md:block"
@@ -55,7 +102,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
       <div className="bg-white py-1 "></div>
 
       <section className="pt-12 bg-black sm:pt-10  ">

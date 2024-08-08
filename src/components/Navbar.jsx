@@ -21,9 +21,11 @@ const Navbar = () => {
   );
 
   return (
-    <header className="w-full bg-black py-5 sm:px-10 px-5 flex justify-between items-center">
-      <nav className="flex w-full screen-max-width">
-        <img src={Logo} alt="Apple" width={150} height={24} />
+    <header className="w-full bg-black py-5 sm:px-10 px-5 flex  justify-between items-center">
+      <nav className="flex w-full items-center screen-max-width">
+        <NavLink to="/">
+          <img src={Logo} alt="Apple" width={150} height={24} />
+        </NavLink>
 
         <div className="flex flex-1 justify-center max-sm:hidden">
           {/* {navLists.map(nav => (

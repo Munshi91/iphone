@@ -25,6 +25,20 @@ const BigSlider = () => {
           delay: 2500,
           disableOnInteraction: false,
         }}
+        breakpoints={{
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 1.5,
+            spaceBetween: 30,
+          },
+        }}
         pagination={{
           clickable: true,
         }}

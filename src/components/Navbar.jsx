@@ -13,9 +13,30 @@ const Navbar = () => {
         <li>
           <NavLink to="/store">Apply</NavLink>
         </li>
-        {/* <li>
-          <NavLink to="/register">Register</NavLink>
-        </li> */}
+        <li>
+          <NavLink to="/phd">PHD</NavLink>
+        </li>
+        <li>
+          <NavLink to="/masters">Masters</NavLink>
+        </li>
+        <li>
+          <NavLink to="/premasters">PreMasters</NavLink>
+        </li>
+        <li>
+          <NavLink to="/undergraduate">Undergraduate</NavLink>
+        </li>
+        <li>
+          <NavLink to="/foundation">Foundation</NavLink>
+        </li>
+        <li>
+          <NavLink to="/pre-sessional">Pre-sessional</NavLink>
+        </li>
+        <li>
+          <NavLink to="/addons">Addons</NavLink>
+        </li>
+        <li>
+          <NavLink to="/support">Support</NavLink>
+        </li>
       </div>
     </>
   );

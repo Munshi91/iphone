@@ -7,6 +7,7 @@ import Northumbria_uni from '../../../public/assets/images/northumbria universit
 import Low_uni from '../../../public/assets/images/University of Law.jpg';
 import ApplyInt from '../../../public/assets/images/Apply Intelligence.jpg';
 import AI from '../../../public/assets/images/AI.jpg';
+import Scholarship from '../../Shere/Scholarship';
 
 const Home = () => {
   const uniLink = (
@@ -262,6 +263,9 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      <div className="bg-white py-1 "></div>
+      <Scholarship />
 
       <BigSlider />
       <SmallSlider />

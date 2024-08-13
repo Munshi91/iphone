@@ -40,8 +40,8 @@ const Scholarship = () => {
             spaceBetween: 20,
           },
           1024: {
-            slidesPerView: 1.5,
-            spaceBetween: 30,
+            slidesPerView: 1,
+            spaceBetween: 20,
           },
         }}
         pagination={{

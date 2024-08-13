@@ -2,7 +2,11 @@ import BigSlider from '../../Shere/BigSlider';
 import SmallSlider from '../../Shere/SmallSlider';
 import Home_1 from '/assets/images/Home-1.jpg';
 import Home_2 from '../../../public/assets/images/Home-2.jpg';
-import Russell_Group from '../../../public/assets/images/russell group.png';
+import Russell_Group from '../../../public/assets/images/Russell Group.jpg';
+import Northumbria_uni from '../../../public/assets/images/northumbria university.jpg';
+import Low_uni from '../../../public/assets/images/University of Law.jpg';
+import ApplyInt from '../../../public/assets/images/Apply Intelligence.jpg';
+import AI from '../../../public/assets/images/AI.jpg';
 
 const Home = () => {
   const uniLink = (
@@ -140,12 +144,12 @@ const Home = () => {
           <div className="relative w-full md:w-1/2 h-[600px]  overflow-hidden">
             <div className="absolute inset-0  flex justify-center md:justify-end">
               <img
-                src="assets/images/promo_iphone15_announce__fmxxi8r9fkuy_large.jpg"
+                src={Northumbria_uni}
                 alt="Background Image"
                 className="object-cover object-center hidden md:block"
               />
               <img
-                src="assets/images/promo_iphone15_announce__fmxxi8r9fkuy_small_2x.jpg"
+                src={Northumbria_uni}
                 alt="Background Image"
                 className="object-cover object-center md:hidden"
               />
@@ -165,12 +169,12 @@ const Home = () => {
           <div className="relative w-full md:w-1/2 h-[600px] text-white overflow-hidden">
             <div className="absolute inset-0  flex justify-center md:justify-end">
               <img
-                src="assets/images/promo_ipadpro__ch217v9v7no2_large.jpg"
+                src={Low_uni}
                 alt="Background Image"
                 className="object-cover object-center hidden md:block"
               />
               <img
-                src="assets/images/promo_ipadpro__ch217v9v7no2_small_2x.jpg"
+                src={Low_uni}
                 alt="Background Image"
                 className="object-cover object-center md:hidden"
               />
@@ -197,12 +201,12 @@ const Home = () => {
           <div className="relative w-full md:w-1/2 h-[600px]  overflow-hidden">
             <div className="absolute inset-0  flex justify-center md:justify-end">
               <img
-                src="assets/images/promo_apple_card__5cm7draujpey_large.jpg"
+                src={ApplyInt}
                 alt="Background Image"
                 className="object-cover object-center hidden md:block"
               />
               <img
-                src="assets/images/promo_apple_card__5cm7draujpey_small_2x.jpg"
+                src={ApplyInt}
                 alt="Background Image"
                 className="object-cover object-center md:hidden"
               />
@@ -220,7 +224,7 @@ const Home = () => {
                   className="inline-flex items-center justify-center w-full md:px-6 py-2 text-lg font-semibold text-blue hover:text-white bg-transparent border border-blue sm:w-auto rounded-full hover:bg-blue focus:outline-none"
                   role="button"
                 >
-                  Apply Now
+                  Learn More
                 </a>
               </div>
             </div>
@@ -228,12 +232,12 @@ const Home = () => {
           <div className="relative w-full md:w-1/2 h-[600px] text-black overflow-hidden">
             <div className="absolute inset-0  flex justify-center md:justify-end">
               <img
-                src="assets/images/promo_iphone_tradein__bugw15ka691e_large.jpg"
+                src={AI}
                 alt="Background Image"
                 className="object-cover object-center hidden md:block"
               />
               <img
-                src="assets/images/promo_iphone_tradein__bugw15ka691e_small_2x.jpg"
+                src={AI}
                 alt="Background Image"
                 className="object-cover object-center md:hidden"
               />

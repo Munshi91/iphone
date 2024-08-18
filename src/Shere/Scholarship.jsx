@@ -49,7 +49,7 @@ const Scholarship = () => {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper"
+        className="mySwiper2"
       >
         <SwiperSlide>
           <div className="relative mb-6">

@@ -21,7 +21,7 @@ const Scholarship = () => {
   return (
     <>
       <Swiper
-        slidesPerView={1.5}
+        slidesPerView={1}
         centeredSlides={true}
         Autoplay={true}
         spaceBetween={30}
@@ -47,7 +47,7 @@ const Scholarship = () => {
         pagination={{
           clickable: true,
         }}
-        navigation={true}
+        // navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >

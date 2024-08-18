@@ -222,7 +222,7 @@ const Home = () => {
               <div className="md:px-8 sm:items-start sm:justify-center sm:px-0 md:space-x-5 sm:flex">
                 <a
                   href="#"
-                  className="inline-flex text-sm items-center px-4 justify-center w-full md:px-6 py-2 md:text-lg font-semibold text-blue hover:text-white bg-transparent border border-blue sm:w-auto rounded-full hover:bg-blue focus:outline-none"
+                  className="inline-flex  items-center px-4 justify-center w-full md:px-6 py-2 text-lg font-semibold text-blue hover:text-white bg-transparent border border-blue sm:w-auto rounded-full hover:bg-blue focus:outline-none"
                   role="button"
                 >
                   Learn More
@@ -253,7 +253,7 @@ const Home = () => {
               <div className="md:px-8 sm:items-start sm:justify-center sm:px-0 md:space-x-5 sm:flex">
                 <a
                   href="#"
-                  className="inline-flex text-sm items-center px-4 justify-center w-full md:px-6 py-2 md:text-lg font-semibold text-blue hover:text-white bg-transparent border border-blue sm:w-auto rounded-full hover:bg-blue focus:outline-none"
+                  className="inline-flex  items-center px-4 justify-center w-full md:px-6 py-2 text-lg font-semibold text-blue hover:text-white bg-transparent border border-blue sm:w-auto rounded-full hover:bg-blue focus:outline-none"
                   role="button"
                 >
                   Apply Now

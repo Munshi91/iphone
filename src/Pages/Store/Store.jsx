@@ -2,7 +2,7 @@ import Store_Image from '/assets/images/bts-header-store-202406.jfif';
 import CT_1 from '../../../public/assets/images/store-card-13-mac-nav-202310.png';
 import CT_2 from '../../../public/assets/images/store-card-13-ipad-nav-202405.png';
 import CT_3 from '../../../public/assets/images/store-card-13-iphone-nav-202309_GEO_US.png';
-import CT_4 from '../../../public/assets/images/store-card-13-watch-nav-202309.png';
+import CT_4 from '../../../public/assets/images/MEng-Engineering.png';
 import CT_5 from '../../../public/assets/images/store-card-13-airpods-nav-202209.png';
 import CT_6 from '../../../public/assets/images/health-science.png';
 const Store = () => {

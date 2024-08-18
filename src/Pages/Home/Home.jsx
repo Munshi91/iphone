@@ -217,7 +217,7 @@ const Home = () => {
                 Apply Intelligence
               </h1>
               <p className="text-xl text-black mb-4">
-                Unbelievably thin. Incredibly powerful.
+                We will give steps to apply.
               </p>
               <div className="md:px-8 sm:items-start sm:justify-center sm:px-0 md:space-x-5 sm:flex">
                 <a

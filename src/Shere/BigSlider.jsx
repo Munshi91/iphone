@@ -16,7 +16,7 @@ const BigSlider = () => {
   return (
     <>
       <Swiper
-        slidesPerView={1.5}
+        // slidesPerView={1.5}
         centeredSlides={true}
         Autoplay={true}
         spaceBetween={30}

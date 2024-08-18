@@ -21,7 +21,7 @@ const Scholarship = () => {
   return (
     <>
       <Swiper
-        slidesPerView={1}
+        slidesPerView={1.5}
         centeredSlides={true}
         Autoplay={true}
         spaceBetween={30}

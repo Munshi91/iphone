@@ -40,8 +40,8 @@ const Scholarship = () => {
             spaceBetween: 20,
           },
           1024: {
-            slidesPerView: 1,
-            spaceBetween: 20,
+            slidesPerView: 1.5,
+            spaceBetween: 30,
           },
         }}
         pagination={{
@@ -49,7 +49,7 @@ const Scholarship = () => {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper2"
+        className="mySwiper"
       >
         <SwiperSlide>
           <div className="relative mb-6">

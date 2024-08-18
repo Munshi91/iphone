@@ -213,9 +213,9 @@ const Home = () => {
               />
             </div>
             <div className="relative mt-4 md:mt-10 z-10 flex flex-col justify-center items-center  text-center">
-              <h1 className="text-4xl text-black font-bold leading-tight mb-4">
+              <h2 className="text-4xl text-black font-bold leading-tight mb-4">
                 Apply Intelligence
-              </h1>
+              </h2>
               <p className="text-xl text-black mb-4">
                 We will give steps to apply.
               </p>
@@ -244,9 +244,9 @@ const Home = () => {
               />
             </div>
             <div className="relative mt-4 md:mt-10 z-10 flex flex-col justify-center items-center  text-center">
-              <h1 className="text-4xl text-black font-bold leading-tight mb-4">
+              <h2 className="text-4xl text-black font-bold leading-tight mb-4">
                 AI
-              </h1>
+              </h2>
               <p className="text-xl text-black mb-4">
                 Unbelievably thin. Incredibly powerful.
               </p>

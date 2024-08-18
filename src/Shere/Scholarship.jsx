@@ -51,9 +51,9 @@ const Scholarship = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="relative mb-6">
+          <div className="relative cursor-pointer mb-6">
             <img
-              className="w-full  h-auto"
+              className="w-full h-auto"
               src={Scholarship_1}
               alt="dummy-image"
             />
@@ -63,7 +63,7 @@ const Scholarship = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="relative mb-6">
+          <div className="relative cursor-pointer mb-6">
             <img
               className="w-full h-auto"
               src={Scholarship_2}
@@ -75,7 +75,7 @@ const Scholarship = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="relative mb-6">
+          <div className="relative cursor-pointer mb-6">
             <img
               className="w-full h-auto"
               src={Scholarship_3}
@@ -87,7 +87,7 @@ const Scholarship = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="relative mb-6">
+          <div className="relative cursor-pointer mb-6">
             <img
               className="w-full h-auto"
               src={Scholarship_4}

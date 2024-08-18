@@ -21,7 +21,6 @@ const Scholarship = () => {
   return (
     <>
       <Swiper
-        slidesPerView={1}
         centeredSlides={true}
         Autoplay={true}
         spaceBetween={30}
@@ -41,7 +40,7 @@ const Scholarship = () => {
           },
           1024: {
             slidesPerView: 1,
-            spaceBetween: 30,
+            spaceBetween: 0,
           },
         }}
         pagination={{
@@ -54,7 +53,7 @@ const Scholarship = () => {
         <SwiperSlide>
           <div className="relative mb-6">
             <img
-              className="w-full h-auto"
+              className="w-full  h-auto"
               src={Scholarship_1}
               alt="dummy-image"
             />

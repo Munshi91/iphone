@@ -23,7 +23,6 @@ const Scholarship = () => {
       <Swiper
         centeredSlides={true}
         Autoplay={true}
-        spaceBetween={30}
         loop={true}
         autoplay={{
           delay: 2500,
@@ -40,7 +39,7 @@ const Scholarship = () => {
           },
           1024: {
             slidesPerView: 1,
-            spaceBetween: 0,
+            spaceBetween: 20,
           },
         }}
         pagination={{

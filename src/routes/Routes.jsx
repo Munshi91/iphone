@@ -4,6 +4,7 @@ import Home from '../Pages/Home/Home';
 import Store from '../Pages/Store/Store';
 import UniversityDetails from '../Pages/UniversityDetails/UniversityDetails';
 import AboutUs from '../Pages/AboutUs/AboutUs';
+import UniversityPage from '../Pages/UniversityPage/UniversityPage';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: '/universitydetails',
         element: <UniversityDetails />,
+      },
+      {
+        path: '/universityPage',
+        element: <UniversityPage />,
       },
     ],
   },

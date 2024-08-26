@@ -7,6 +7,8 @@ import Northumbria_uni from '../../../public/assets/images/northumbria universit
 import Low_uni from '../../../public/assets/images/University of Law.jpg';
 import ApplyInt from '../../../public/assets/images/Apply Intelligence.jpg';
 import AI from '../../../public/assets/images/AI.jpg';
+import UCAS from '../../../public/assets/images/ucas application.jpg';
+import Accommodation from '../../../public/assets/images/Accommodation.png';
 import Scholarship from '../../Shere/Scholarship';
 
 const Home = () => {
@@ -218,12 +220,12 @@ const Home = () => {
           <div className="relative w-full md:w-1/2 h-[600px]  overflow-hidden">
             <div className="absolute inset-0  flex justify-center md:justify-end">
               <img
-                src={ApplyInt}
+                src={UCAS}
                 alt="Background Image"
                 className="object-cover object-center hidden md:block"
               />
               <img
-                src={ApplyInt}
+                src={UCAS}
                 alt="Background Image"
                 className="object-cover object-center md:hidden"
               />
@@ -249,12 +251,12 @@ const Home = () => {
           <div className="relative w-full md:w-1/2 h-[600px] text-black overflow-hidden">
             <div className="absolute inset-0  flex justify-center md:justify-end">
               <img
-                src={AI}
+                src={Accommodation}
                 alt="Background Image"
                 className="object-cover object-center hidden md:block"
               />
               <img
-                src={AI}
+                src={Accommodation}
                 alt="Background Image"
                 className="object-cover object-center md:hidden"
               />

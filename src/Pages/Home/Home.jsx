@@ -14,7 +14,7 @@ const Home = () => {
     <>
       <div className="space-x-4">
         <a
-          href="/universitydetails"
+          href="/universityPage"
           title=""
           className="mb-3 sm:mb-0 inline-flex items-center justify-center w-full md:px-6 py-2 text-lg font-semibold text-white  bg-blue border hover:bg-transparent border-transparent hover:border-blue hover:text-blue sm:w-auto rounded-full  focus:outline-none "
           role="button"

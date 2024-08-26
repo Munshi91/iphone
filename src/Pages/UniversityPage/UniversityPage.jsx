@@ -5,8 +5,8 @@ import {
   Image_3,
   Image_4,
   Location,
+  UK,
 } from '../UniversityPage/UniversityResurce';
-import { div } from 'three/examples/jsm/nodes/Nodes.js';
 
 const UniversityPage = () => {
   const [openAccordion, setOpenAccordion] = useState(null);
@@ -36,9 +36,10 @@ const UniversityPage = () => {
                   <div className="flex items-center md:justify-center text-gray-600 mt-2 md:mt-4">
                     <img
                       className="md:w-8 md:h-8 w-6 h-6 rounded-full mr-2"
-                      src="https://www.countryflags.com/wp-content/uploads/united-kingdom-flag-png-large.png"
+                      src={UK}
                       alt="UK Flag"
                     />
+                    
                     <span className="text-md font-semibold md:text-lg">
                       Hertfordshire, East of England, GB
                     </span>

@@ -214,6 +214,74 @@ const Home = () => {
             </div>
             <div className="relative mt-4 md:mt-10 z-10 flex flex-col justify-center items-center  text-center">
               <h2 className="text-4xl text-black font-bold leading-tight mb-4">
+                UCAS Application
+              </h2>
+              <p className="text-xl text-black mb-4">
+                We will give steps to apply.
+              </p>
+              <div className="md:px-8 sm:items-start sm:justify-center sm:px-0 md:space-x-5 sm:flex">
+                <a
+                  href="#"
+                  className="inline-flex  items-center px-4 justify-center w-full md:px-6 py-2 text-lg font-semibold text-blue hover:text-white bg-transparent border border-blue sm:w-auto rounded-full hover:bg-blue focus:outline-none"
+                  role="button"
+                >
+                  Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="relative w-full md:w-1/2 h-[600px] text-black overflow-hidden">
+            <div className="absolute inset-0  flex justify-center md:justify-end">
+              <img
+                src={AI}
+                alt="Background Image"
+                className="object-cover object-center hidden md:block"
+              />
+              <img
+                src={AI}
+                alt="Background Image"
+                className="object-cover object-center md:hidden"
+              />
+            </div>
+            <div className="relative mt-4 md:mt-10 z-10 flex flex-col justify-center items-center  text-center">
+              <h2 className="text-4xl text-black font-bold leading-tight mb-4">
+                Accommodation
+              </h2>
+              <p className="text-xl text-black mb-4">
+                Unbelievably thin. Incredibly powerful.
+              </p>
+              <div className="md:px-8 sm:items-start sm:justify-center sm:px-0 md:space-x-5 sm:flex">
+                <a
+                  href="#"
+                  className="inline-flex  items-center px-4 justify-center w-full md:px-6 py-2 text-lg font-semibold text-blue hover:text-white bg-transparent border border-blue sm:w-auto rounded-full hover:bg-blue focus:outline-none"
+                  role="button"
+                >
+                  Apply Now
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div className="bg-white py-1 "></div>
+
+      <section className="mb-10">
+        <div className="flex flex-col md:mx-4   gap-4 md:flex-row items-center max-w-8xl">
+          <div className="relative w-full md:w-1/2 h-[600px]  overflow-hidden">
+            <div className="absolute inset-0  flex justify-center md:justify-end">
+              <img
+                src={ApplyInt}
+                alt="Background Image"
+                className="object-cover object-center hidden md:block"
+              />
+              <img
+                src={ApplyInt}
+                alt="Background Image"
+                className="object-cover object-center md:hidden"
+              />
+            </div>
+            <div className="relative mt-4 md:mt-10 z-10 flex flex-col justify-center items-center  text-center">
+              <h2 className="text-4xl text-black font-bold leading-tight mb-4">
                 Apply Intelligence
               </h2>
               <p className="text-xl text-black mb-4">

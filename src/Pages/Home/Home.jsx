@@ -256,7 +256,7 @@ const Home = () => {
                   className="inline-flex  items-center px-4 justify-center w-full md:px-6 py-2 text-lg font-semibold text-blue hover:text-white bg-transparent border border-blue sm:w-auto rounded-full hover:bg-blue focus:outline-none"
                   role="button"
                 >
-                  Apply Now
+                  Learn More
                 </a>
               </div>
             </div>

@@ -4,6 +4,7 @@ import Home from '../Pages/Home/Home';
 import Store from '../Pages/Store/Store';
 import UniversityDetails from '../Pages/UniversityDetails/UniversityDetails';
 import AboutUs from '../Pages/AboutUs/AboutUs';
+import ApplyForm from '../Pages/ApplyForm';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,11 @@ const router = createBrowserRouter([
       {
         path: '/universitydetails',
         element: <UniversityDetails />,
+      },
+
+      {
+        path: '/form',
+        element: <ApplyForm />,
       },
     ],
   },

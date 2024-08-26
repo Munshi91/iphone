@@ -39,7 +39,7 @@ const UniversityPage = () => {
                       src={UK}
                       alt="UK Flag"
                     />
-                    
+
                     <span className="text-md font-semibold md:text-lg">
                       Hertfordshire, East of England, GB
                     </span>

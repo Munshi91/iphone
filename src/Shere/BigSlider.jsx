@@ -61,7 +61,7 @@ const BigSlider = () => {
               alt="dummy-image"
             />
             <div className="absolute bottom-0 md:left-8 md:mb-10">
-              <h2 className="text-4xl  text-white font-bold leading-tight mb-4">
+              <h2 className="md:text-4xl text-2xl px-2 md:px-0 text-white font-bold leading-tight mb-10 md:mb-4">
                 University of Hertfordshire
               </h2>
               <button className=" hidden md:block   bg-white text-blue px-4 py-2 rounded  m-2">
@@ -78,10 +78,10 @@ const BigSlider = () => {
               alt="dummy-image"
             />
             <div className="absolute bottom-0 md:left-8 md:mb-10">
-              <h2 className="text-4xl  text-white font-bold leading-tight mb-4">
+              <h2 className="md:text-4xl text-2xl px-2 md:px-0 text-white font-bold leading-tight mb-10 md:mb-4">
                 Northumbria University
               </h2>
-              <button className=" hidden md:block   bg-white text-blue px-4 py-2 rounded  m-2">
+              <button className=" hidden md:block  bg-white text-blue px-4 py-2 rounded  m-2">
                 Apply Now
               </button>
             </div>
@@ -91,10 +91,10 @@ const BigSlider = () => {
           <div className="relative">
             <img className="w-full" src={Ulster_University} alt="dummy-image" />
             <div className="absolute bottom-0 md:left-8 md:mb-10">
-              <h2 className="text-4xl  text-white font-bold leading-tight mb-4">
+              <h2 className="md:text-4xl text-2xl px-2 md:px-0 text-white font-bold leading-tight mb-10 md:mb-4">
                 Ulster University
               </h2>
-              <button className=" hidden md:block   bg-white text-blue px-4 py-2 rounded  m-2">
+              <button className=" hidden md:block bg-white text-blue px-4 py-2 rounded  m-2">
                 Apply Now
               </button>
             </div>
@@ -109,7 +109,7 @@ const BigSlider = () => {
             />
 
             <div className="absolute bottom-0 md:left-8 md:mb-10">
-              <h2 className="text-4xl  text-white font-bold leading-tight mb-4">
+              <h2 className="md:text-4xl text-2xl px-2 md:px-0 text-white font-bold leading-tight mb-10 md:mb-4">
                 Canterbury Christ Church University
               </h2>
               <button className=" hidden md:block   bg-white text-blue px-4 py-2 rounded  m-2">
@@ -123,7 +123,7 @@ const BigSlider = () => {
             <img className="w-full" src={University_Law} alt="dummy-image" />
 
             <div className="absolute bottom-0 md:left-8 md:mb-10">
-              <h2 className="text-4xl  text-white font-bold leading-tight mb-4">
+              <h2 className="md:text-4xl text-2xl px-2 md:px-0 text-white font-bold leading-tight mb-10 md:mb-4">
                 University of Law
               </h2>
               <button className=" hidden md:block   bg-white text-blue px-4 py-2 rounded  m-2">
@@ -140,7 +140,7 @@ const BigSlider = () => {
               alt="dummy-image"
             />
             <div className="absolute bottom-0 md:left-8 md:mb-10">
-              <h2 className="text-4xl  text-white font-bold leading-tight mb-4">
+              <h2 className="md:text-4xl text-2xl px-2 md:px-0 text-white font-bold leading-tight mb-10 md:mb-4">
                 University of Chester
               </h2>
               <button className=" hidden md:block   bg-white text-blue px-4 py-2 rounded  m-2">

@@ -50,51 +50,119 @@ const Scholarship = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="relative cursor-pointer mb-6">
-            <img
-              className="w-full h-auto"
-              src={Scholarship_1}
-              alt="dummy-image"
-            />
-            <button className="absolute  hidden md:block bottom-0 md:left-8 md:mb-10 bg-white text-blue px-4 py-2 rounded  m-2">
-              Apply Now
-            </button>
+          <div className="relative w-full md:h-[600px] h-[500px] overflow-hidden">
+            <div className="absolute inset-0  flex justify-center md:justify-end">
+              <img
+                src={Scholarship_1}
+                alt="Background Image"
+                className="object-cover object-center"
+              />
+            </div>
+            <div className="relative md:mt-10 z-10 flex flex-col justify-center items-center  text-center">
+              <h1 className="md:text-6xl text-2xl text-white font-bold leading-tight mb-4">
+                Your dreams emerge here...
+              </h1>
+              <p className="md:text-2xl text-xl text-white mb-4">
+                We offer high-quality and professional <br />
+                UK University Admission services
+              </p>
+              <div className="md:px-8 sm:items-start sm:justify-center md:pb-6 sm:px-0 md:space-x-5  md:flex">
+                <a
+                  href="#"
+                  className="inline-flex  items-center px-4 justify-center w-full md:px-6 py-2 text-lg font-semibold text-blue hover:text-white bg-transparent border border-blue sm:w-auto rounded-full hover:bg-blue focus:outline-none"
+                  role="button"
+                >
+                  Learn More
+                </a>
+              </div>
+            </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="relative cursor-pointer mb-6">
-            <img
-              className="w-full h-auto"
-              src={Scholarship_2}
-              alt="dummy-image"
-            />
-            <button className="absolute hidden md:block bottom-0 md:left-8 md:mb-10 bg-white text-blue px-4 py-2 rounded  m-2">
-              Apply Now
-            </button>
+          <div className="relative w-full md:h-[600px] h-[500px] overflow-hidden">
+            <div className="absolute inset-0  flex justify-center md:justify-end">
+              <img
+                src={Scholarship_2}
+                alt="Background Image"
+                className="object-cover object-center"
+              />
+            </div>
+            <div className="relative md:mt-10 z-10 flex flex-col justify-center items-center  text-center">
+              <h1 className="md:text-6xl text-2xl text-white font-bold leading-tight mb-4">
+                Your dreams emerge here...
+              </h1>
+              <p className="md:text-2xl text-xl text-white mb-4">
+                We offer high-quality and professional <br />
+                UK University Admission services
+              </p>
+              <div className="md:px-8 sm:items-start sm:justify-center md:pb-6 sm:px-0 md:space-x-5  md:flex">
+                <a
+                  href="#"
+                  className="inline-flex  items-center px-4 justify-center w-full md:px-6 py-2 text-lg font-semibold text-blue hover:text-white bg-transparent border border-blue sm:w-auto rounded-full hover:bg-blue focus:outline-none"
+                  role="button"
+                >
+                  Learn More
+                </a>
+              </div>
+            </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="relative cursor-pointer mb-6">
-            <img
-              className="w-full h-auto"
-              src={Scholarship_3}
-              alt="dummy-image"
-            />
-            <button className="absolute hidden md:block bottom-0 md:left-8 md:mb-10 bg-white text-blue px-4 py-2 rounded  m-2">
-              Apply Now
-            </button>
+          <div className="relative w-full md:h-[600px] h-[500px] overflow-hidden">
+            <div className="absolute inset-0  flex justify-center md:justify-end">
+              <img
+                src={Scholarship_3}
+                alt="Background Image"
+                className="object-cover object-center"
+              />
+            </div>
+            <div className="relative md:mt-10 z-10 flex flex-col justify-center items-center  text-center">
+              <h1 className="md:text-6xl text-2xl text-white font-bold leading-tight mb-4">
+                Your dreams emerge here...
+              </h1>
+              <p className="md:text-2xl text-xl text-white mb-4">
+                We offer high-quality and professional <br />
+                UK University Admission services
+              </p>
+              <div className="md:px-8 sm:items-start sm:justify-center md:pb-6 sm:px-0 md:space-x-5  md:flex">
+                <a
+                  href="#"
+                  className="inline-flex  items-center px-4 justify-center w-full md:px-6 py-2 text-lg font-semibold text-blue hover:text-white bg-transparent border border-blue sm:w-auto rounded-full hover:bg-blue focus:outline-none"
+                  role="button"
+                >
+                  Learn More
+                </a>
+              </div>
+            </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="relative cursor-pointer mb-6">
-            <img
-              className="w-full h-auto"
-              src={Scholarship_4}
-              alt="dummy-image"
-            />
-            <button className="absolute hidden md:block bottom-0 md:left-8 md:mb-10 bg-white text-blue px-4 py-2 rounded  m-2">
-              Apply Now
-            </button>
+          <div className="relative w-full md:h-[600px] h-[500px] overflow-hidden">
+            <div className="absolute inset-0  flex justify-center md:justify-end">
+              <img
+                src={Scholarship_4}
+                alt="Background Image"
+                className="object-cover object-center"
+              />
+            </div>
+            <div className="relative md:mt-10 z-10 flex flex-col justify-center items-center  text-center">
+              <h1 className="md:text-6xl text-2xl text-white font-bold leading-tight mb-4">
+                Your dreams emerge here...
+              </h1>
+              <p className="md:text-2xl text-xl text-white mb-4">
+                We offer high-quality and professional <br />
+                UK University Admission services
+              </p>
+              <div className="md:px-8 sm:items-start sm:justify-center md:pb-6 sm:px-0 md:space-x-5  md:flex">
+                <a
+                  href="#"
+                  className="inline-flex  items-center px-4 justify-center w-full md:px-6 py-2 text-lg font-semibold text-blue hover:text-white bg-transparent border border-blue sm:w-auto rounded-full hover:bg-blue focus:outline-none"
+                  role="button"
+                >
+                  Learn More
+                </a>
+              </div>
+            </div>
           </div>
         </SwiperSlide>
       </Swiper>

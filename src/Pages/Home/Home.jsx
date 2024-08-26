@@ -334,7 +334,7 @@ const Home = () => {
 
       <div className="bg-white py-1 "></div>
       <Scholarship />
-
+      <div className="bg-white py-1 "></div>
       <BigSlider />
       <SmallSlider />
     </main>

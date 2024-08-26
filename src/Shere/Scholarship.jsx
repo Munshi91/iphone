@@ -58,8 +58,8 @@ const Scholarship = () => {
                 className="object-cover object-center"
               />
             </div>
-            <div className="relative md:mt-10 z-10 flex flex-col justify-center items-center  text-center">
-              <h1 className="md:text-6xl text-2xl text-white font-bold leading-tight mb-4">
+            <div className="relative mt-4 md:mt-10 z-10 flex flex-col justify-center items-center  text-center">
+              <h1 className="md:text-6xl text-3xl text-white font-bold leading-tight mb-4">
                 Your dreams emerge here...
               </h1>
               <p className="md:text-2xl text-xl text-white mb-4">
@@ -70,7 +70,7 @@ const Scholarship = () => {
                 <a
                   href="#"
                   title=""
-                  className="mb-3 sm:mb-0 inline-flex items-center justify-center w-full md:px-6 py-2 text-lg font-semibold text-white  bg-blue border hover:bg-transparent border-transparent hover:border-blue hover:text-blue sm:w-auto rounded-full  focus:outline-none "
+                  className="mb-3 sm:mb-0 inline-flex items-center justify-center w-full px-4 md:px-6 py-2 text-lg font-semibold text-white  bg-blue border hover:bg-transparent border-transparent hover:border-blue hover:text-blue sm:w-auto rounded-full  focus:outline-none "
                   role="button"
                 >
                   Learn more
@@ -88,8 +88,8 @@ const Scholarship = () => {
                 className="object-cover object-center"
               />
             </div>
-            <div className="relative md:mt-10 z-10 flex flex-col justify-center items-center  text-center">
-              <h1 className="md:text-6xl text-2xl text-white font-bold leading-tight mb-4">
+            <div className="relative mt-4 md:mt-10 z-10 flex flex-col justify-center items-center  text-center">
+              <h1 className="md:text-6xl text-3xl text-white font-bold leading-tight mb-4">
                 Your dreams emerge here...
               </h1>
               <p className="md:text-2xl text-xl text-white mb-4">
@@ -100,7 +100,7 @@ const Scholarship = () => {
                 <a
                   href="#"
                   title=""
-                  className="mb-3 sm:mb-0 inline-flex items-center justify-center w-full md:px-6 py-2 text-lg font-semibold text-white  bg-blue border hover:bg-transparent border-transparent hover:border-blue hover:text-blue sm:w-auto rounded-full  focus:outline-none "
+                  className="mb-3 sm:mb-0 inline-flex items-center justify-center w-full px-4 md:px-6 py-2 text-lg font-semibold text-white  bg-blue border hover:bg-transparent border-transparent hover:border-blue hover:text-blue sm:w-auto rounded-full  focus:outline-none "
                   role="button"
                 >
                   Learn more
@@ -118,8 +118,8 @@ const Scholarship = () => {
                 className="object-cover object-center"
               />
             </div>
-            <div className="relative md:mt-10 z-10 flex flex-col justify-center items-center  text-center">
-              <h1 className="md:text-6xl text-2xl text-white font-bold leading-tight mb-4">
+            <div className="relative mt-4 md:mt-10 z-10 flex flex-col justify-center items-center  text-center">
+              <h1 className="md:text-6xl text-3xl text-white font-bold leading-tight mb-4">
                 Your dreams emerge here...
               </h1>
               <p className="md:text-2xl text-xl text-white mb-4">
@@ -130,7 +130,7 @@ const Scholarship = () => {
                 <a
                   href="#"
                   title=""
-                  className="mb-3 sm:mb-0 inline-flex items-center justify-center w-full md:px-6 py-2 text-lg font-semibold text-white  bg-blue border hover:bg-transparent border-transparent hover:border-blue hover:text-blue sm:w-auto rounded-full  focus:outline-none "
+                  className="mb-3 sm:mb-0 inline-flex items-center justify-center w-full px-4 md:px-6 py-2 text-lg font-semibold text-white  bg-blue border hover:bg-transparent border-transparent hover:border-blue hover:text-blue sm:w-auto rounded-full  focus:outline-none "
                   role="button"
                 >
                   Learn more
@@ -148,8 +148,8 @@ const Scholarship = () => {
                 className="object-cover object-center"
               />
             </div>
-            <div className="relative md:mt-10 z-10 flex flex-col justify-center items-center  text-center">
-              <h1 className="md:text-6xl text-2xl text-white font-bold leading-tight mb-4">
+            <div className="relative mt-4 md:mt-10 z-10 flex flex-col justify-center items-center  text-center">
+              <h1 className="md:text-6xl text-3xl text-white font-bold leading-tight mb-4">
                 Your dreams emerge here...
               </h1>
               <p className="md:text-2xl text-xl text-white mb-4">
@@ -160,7 +160,7 @@ const Scholarship = () => {
                 <a
                   href="#"
                   title=""
-                  className="mb-3 sm:mb-0 inline-flex items-center justify-center w-full md:px-6 py-2 text-lg font-semibold text-white  bg-blue border hover:bg-transparent border-transparent hover:border-blue hover:text-blue sm:w-auto rounded-full  focus:outline-none "
+                  className="mb-3 sm:mb-0 inline-flex items-center justify-center w-full px-4 md:px-6 py-2 text-lg font-semibold text-white  bg-blue border hover:bg-transparent border-transparent hover:border-blue hover:text-blue sm:w-auto rounded-full  focus:outline-none "
                   role="button"
                 >
                   Learn more

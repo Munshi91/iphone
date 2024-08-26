@@ -60,7 +60,7 @@ const Scholarship = () => {
             </div>
             <div className="relative mt-4 md:mt-10 z-10 flex flex-col justify-center items-center  text-center">
               <h1 className="md:text-6xl text-3xl text-white font-bold leading-tight mb-4">
-                Your dreams emerge here...
+                Commonwealth Scholarships
               </h1>
               <p className="md:text-2xl text-xl text-white mb-4">
                 We offer high-quality and professional <br />
@@ -90,37 +90,7 @@ const Scholarship = () => {
             </div>
             <div className="relative mt-4 md:mt-10 z-10 flex flex-col justify-center items-center  text-center">
               <h1 className="md:text-6xl text-3xl text-white font-bold leading-tight mb-4">
-                Your dreams emerge here...
-              </h1>
-              <p className="md:text-2xl text-xl text-white mb-4">
-                We offer high-quality and professional <br />
-                UK University Admission services
-              </p>
-              <div className="md:px-8 sm:items-start sm:justify-center md:pb-6 sm:px-0 md:space-x-5  md:flex">
-                <a
-                  href="#"
-                  title=""
-                  className="mb-3 sm:mb-0 inline-flex items-center justify-center w-full px-4 md:px-6 py-2 text-lg font-semibold text-white  bg-blue border hover:bg-transparent border-transparent hover:border-blue hover:text-blue sm:w-auto rounded-full  focus:outline-none "
-                  role="button"
-                >
-                  Learn more
-                </a>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="relative w-full md:h-[600px] h-[500px] overflow-hidden">
-            <div className="absolute inset-0  flex justify-center md:justify-end">
-              <img
-                src={Scholarship_3}
-                alt="Background Image"
-                className="object-cover object-center"
-              />
-            </div>
-            <div className="relative mt-4 md:mt-10 z-10 flex flex-col justify-center items-center  text-center">
-              <h1 className="md:text-6xl text-3xl text-white font-bold leading-tight mb-4">
-                Your dreams emerge here...
+                GREAT Scholarships...
               </h1>
               <p className="md:text-2xl text-xl text-white mb-4">
                 We offer high-quality and professional <br />
@@ -154,9 +124,38 @@ const Scholarship = () => {
               </h1>
               <p className="md:text-2xl text-xl text-white mb-4">
                 Since 1983, Chevening has brought over 60000 exceptional
-                professionals from around the world <br />
-                to study in the UK through scholarships and fellowships funded
-                ...
+                <br />
+                professionals from around the world...
+              </p>
+              <div className="md:px-8 sm:items-start sm:justify-center md:pb-6 sm:px-0 md:space-x-5  md:flex">
+                <a
+                  href="#"
+                  title=""
+                  className="mb-3 sm:mb-0 inline-flex items-center justify-center w-full px-4 md:px-6 py-2 text-lg font-semibold text-white  bg-blue border hover:bg-transparent border-transparent hover:border-blue hover:text-blue sm:w-auto rounded-full  focus:outline-none "
+                  role="button"
+                >
+                  Learn more
+                </a>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="relative w-full md:h-[600px] h-[500px] overflow-hidden">
+            <div className="absolute inset-0  flex justify-center md:justify-end">
+              <img
+                src={Scholarship_3}
+                alt="Background Image"
+                className="object-cover object-center"
+              />
+            </div>
+            <div className="relative mt-4 md:mt-10 z-10 flex flex-col justify-center items-center  text-center">
+              <h1 className="md:text-6xl text-3xl text-white font-bold leading-tight mb-4">
+                Others Scholarship...
+              </h1>
+              <p className="md:text-2xl text-xl text-white mb-4">
+                We offer high-quality and professional <br />
+                UK University Admission services
               </p>
               <div className="md:px-8 sm:items-start sm:justify-center md:pb-6 sm:px-0 md:space-x-5  md:flex">
                 <a

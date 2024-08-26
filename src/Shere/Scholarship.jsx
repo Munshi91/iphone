@@ -69,10 +69,11 @@ const Scholarship = () => {
               <div className="md:px-8 sm:items-start sm:justify-center md:pb-6 sm:px-0 md:space-x-5  md:flex">
                 <a
                   href="#"
-                  className="inline-flex  items-center px-4 justify-center w-full md:px-6 py-2 text-lg font-semibold text-blue hover:text-white bg-transparent border border-blue sm:w-auto rounded-full hover:bg-blue focus:outline-none"
+                  title=""
+                  className="mb-3 sm:mb-0 inline-flex items-center justify-center w-full md:px-6 py-2 text-lg font-semibold text-white  bg-blue border hover:bg-transparent border-transparent hover:border-blue hover:text-blue sm:w-auto rounded-full  focus:outline-none "
                   role="button"
                 >
-                  Learn More
+                  Learn more
                 </a>
               </div>
             </div>
@@ -98,10 +99,11 @@ const Scholarship = () => {
               <div className="md:px-8 sm:items-start sm:justify-center md:pb-6 sm:px-0 md:space-x-5  md:flex">
                 <a
                   href="#"
-                  className="inline-flex  items-center px-4 justify-center w-full md:px-6 py-2 text-lg font-semibold text-blue hover:text-white bg-transparent border border-blue sm:w-auto rounded-full hover:bg-blue focus:outline-none"
+                  title=""
+                  className="mb-3 sm:mb-0 inline-flex items-center justify-center w-full md:px-6 py-2 text-lg font-semibold text-white  bg-blue border hover:bg-transparent border-transparent hover:border-blue hover:text-blue sm:w-auto rounded-full  focus:outline-none "
                   role="button"
                 >
-                  Learn More
+                  Learn more
                 </a>
               </div>
             </div>
@@ -127,10 +129,11 @@ const Scholarship = () => {
               <div className="md:px-8 sm:items-start sm:justify-center md:pb-6 sm:px-0 md:space-x-5  md:flex">
                 <a
                   href="#"
-                  className="inline-flex  items-center px-4 justify-center w-full md:px-6 py-2 text-lg font-semibold text-blue hover:text-white bg-transparent border border-blue sm:w-auto rounded-full hover:bg-blue focus:outline-none"
+                  title=""
+                  className="mb-3 sm:mb-0 inline-flex items-center justify-center w-full md:px-6 py-2 text-lg font-semibold text-white  bg-blue border hover:bg-transparent border-transparent hover:border-blue hover:text-blue sm:w-auto rounded-full  focus:outline-none "
                   role="button"
                 >
-                  Learn More
+                  Learn more
                 </a>
               </div>
             </div>
@@ -156,10 +159,11 @@ const Scholarship = () => {
               <div className="md:px-8 sm:items-start sm:justify-center md:pb-6 sm:px-0 md:space-x-5  md:flex">
                 <a
                   href="#"
-                  className="inline-flex  items-center px-4 justify-center w-full md:px-6 py-2 text-lg font-semibold text-blue hover:text-white bg-transparent border border-blue sm:w-auto rounded-full hover:bg-blue focus:outline-none"
+                  title=""
+                  className="mb-3 sm:mb-0 inline-flex items-center justify-center w-full md:px-6 py-2 text-lg font-semibold text-white  bg-blue border hover:bg-transparent border-transparent hover:border-blue hover:text-blue sm:w-auto rounded-full  focus:outline-none "
                   role="button"
                 >
-                  Learn More
+                  Learn more
                 </a>
               </div>
             </div>

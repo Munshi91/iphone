@@ -127,8 +127,8 @@ const UniversityPage = () => {
         </div>
       </div>
       <section className="max-w-screen-2xl mx-auto">
+        {/* About Section */}
         <div className="md:flex gap-10">
-          {/* About Section */}
           <section id="about" className="mt-4 md:mt-6 md:max-w-5xl">
             <div>
               <h2 className=" hidden md:block md:text-4xl text-black font-semibold">
@@ -185,8 +185,8 @@ const UniversityPage = () => {
                 </ul>
               </div>
             </div>
-            <section className="mt-10  w-full bg-gradient-to-l rounded-xl from-sky-500 to-indigo-800">
-              <div className="md:flex items-center justify-between px-14 py-6">
+            <section className="mt-10 text-center  w-full bg-gradient-to-l rounded-xl from-sky-500 to-indigo-800">
+              <div className="md:flex items-center justify-between px-4 md:px-14 py-6">
                 <span className="space-x-2 flex justify-center items-center">
                   <img src={Login} alt="" />
                   <span className="text-xl md:text-3xl ">
@@ -196,7 +196,7 @@ const UniversityPage = () => {
                 <a
                   type="button"
                   href="#"
-                  className="border text-xl font-bold hover:bg-white hover:text-black rounded-lg border-white px-6 py-2"
+                  className="border mt-4 md:mt-0 text-xl font-bold hover:bg-white hover:text-black rounded-lg border-white px-6 py-2"
                 >
                   Login Now
                 </a>
@@ -359,41 +359,66 @@ const UniversityPage = () => {
             </div>
           </div>
         </div>
-
         {/* Features Accordion */}
-        <section
-          id="features"
-          className="mt-6 bg-white p-6 shadow-md rounded-md"
-        >
-          <h2 className="text-xl font-semibold">Features</h2>
-          <div className="mt-4">
-            <Accordion
-              title="Post Graduation Permit"
-              isOpen={openAccordion === 0}
-              toggle={() => toggleAccordion(0)}
-            />
-            <Accordion
-              title="Co-op/Internship Participation"
-              isOpen={openAccordion === 1}
-              toggle={() => toggleAccordion(1)}
-            />
-            <Accordion
-              title="Work While Studying"
-              isOpen={openAccordion === 2}
-              toggle={() => toggleAccordion(2)}
-            />
-            <Accordion
-              title="Conditional Offer Letter"
-              isOpen={openAccordion === 3}
-              toggle={() => toggleAccordion(3)}
-            />
-            <Accordion
-              title="Accommodations"
-              isOpen={openAccordion === 4}
-              toggle={() => toggleAccordion(4)}
-            />
+        <div className="px-4 md:px-0">
+          <h2 className="text-xl text-black font-semibold">Features</h2>
+
+          <div className="md:flex gap-10">
+            <section className="mt-4 bg-white w-full  px-4 md:py-10 py-6 shadow-md rounded-md">
+              <div className="mt-4 ">
+                <Accordion
+                  title="Post Graduation Permit"
+                  isOpen={openAccordion === 0}
+                  toggle={() => toggleAccordion(0)}
+                />
+                <Accordion
+                  title="Co-op/Internship Participation"
+                  isOpen={openAccordion === 1}
+                  toggle={() => toggleAccordion(1)}
+                />
+                <Accordion
+                  title="Work While Studying"
+                  isOpen={openAccordion === 2}
+                  toggle={() => toggleAccordion(2)}
+                />
+                <Accordion
+                  title="Conditional Offer Letter"
+                  isOpen={openAccordion === 3}
+                  toggle={() => toggleAccordion(3)}
+                />
+                <Accordion
+                  title="Accommodations"
+                  isOpen={openAccordion === 4}
+                  toggle={() => toggleAccordion(4)}
+                />
+              </div>
+            </section>
+            {/* Sidebar */}
+            <div className="text-black">
+              <h4 className="text-lg text-nowrap font-semibold">
+                Institution Details
+              </h4>
+              <ul className="space-y-4  md:w-[500px] px-10 py-6 mt-6 rounded-lg shadow-md bg-white">
+                <li className="flex justify-between">
+                  <span>Founded</span>
+                  <span>1952</span>
+                </li>
+                <li className="flex justify-between">
+                  <span>School ID</span>
+                  <span>1449</span>
+                </li>
+                <li className="flex justify-between">
+                  <span>Provider ID number</span>
+                  <span>10007147</span>
+                </li>
+                <li className="flex justify-between">
+                  <span>Institution type</span>
+                  <span>Public</span>
+                </li>
+              </ul>
+            </div>
           </div>
-        </section>
+        </div>
         {/* Location Section */}
         <section
           id="location"
@@ -417,7 +442,7 @@ const UniversityPage = () => {
           id="programs"
           className="mt-6 bg-white p-6 shadow-md rounded-md"
         >
-          <h2 className="text-xl font-semibold">Programs</h2>
+          <h2 className="text-xl text-black font-semibold">Programs</h2>
           <div className="mt-4 space-y-4">
             <ProgramCard
               title="Bachelor of Arts (Honours) - Accounting and Finance"

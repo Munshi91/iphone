@@ -1,5 +1,5 @@
 import { appleImg, bagImg, searchImg } from '../utils';
-import { navLists } from '../constants';
+// import { navLists } from '../constants';
 import { NavLink } from 'react-router-dom';
 import Logo from '/assets/images/ED-door-white-logo-hori.svg';
 
@@ -7,9 +7,6 @@ const Navbar = () => {
   const navLinks = (
     <>
       <div className="md:flex space-y-2 md:space-y-0 list-none md:space-x-4">
-        <li>
-          <NavLink to="/">Home</NavLink>
-        </li>
         <li>
           <NavLink to="/store">Apply</NavLink>
         </li>

@@ -1,5 +1,5 @@
 import { appleImg, bagImg, searchImg } from '../utils';
-// import { navLists } from '../constants';
+import { navLists } from '../constants';
 import { NavLink } from 'react-router-dom';
 import Logo from '/assets/images/ED-door-white-logo-hori.svg';
 
@@ -11,16 +11,16 @@ const Navbar = () => {
           <NavLink to="/store">Apply</NavLink>
         </li>
         <li>
-          <NavLink to="/phd">PHD</NavLink>
-        </li>
-        <li>
-          <NavLink to="/masters">Masters</NavLink>
+          <NavLink to="/undergraduate">Undergraduate</NavLink>
         </li>
         <li>
           <NavLink to="/premasters">PreMasters</NavLink>
         </li>
         <li>
-          <NavLink to="/undergraduate">Undergraduate</NavLink>
+          <NavLink to="/masters">Masters</NavLink>
+        </li>
+        <li>
+          <NavLink to="/phd">PHD</NavLink>
         </li>
         <li>
           <NavLink to="/foundation">Foundation</NavLink>
@@ -41,7 +41,7 @@ const Navbar = () => {
   return (
     <header className="w-full bg-black py-5 sm:px-10 px-5 flex  justify-between items-center">
       <nav className="flex w-full items-center screen-max-width">
-        <NavLink to="/">
+        <NavLink>
           <img src={Logo} alt="Apple" width={150} height={24} />
         </NavLink>
 
